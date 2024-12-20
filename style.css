@@ -9,6 +9,8 @@
     font-size: 62.5%; 
 }
 
+
+
 body {
     background: linear-gradient(287.56deg, #C2E9FB 0%, #A1C4FD 100%);
     font-size: 1.6rem;
@@ -25,9 +27,9 @@ button {
     background-color: #7879f1;
     color: white;
     font-weight: bold;
-    border-radius: 0 .4rem .4rem 0;
+    border-radius: 0 0.4rem 0.4rem 0;
     cursor: pointer;
-    transition: background .3s;
+    transition: background 0.3s;
 }
 
 button:hover {

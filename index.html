@@ -8,7 +8,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
 </head>
 <body>
     <main>
@@ -16,18 +15,18 @@
             <h1>Calcular Impressão</h1>
             <p>Utilize a Ferramenta para o Calculo da Impressão</p>
             
-            <form>
-                <p>Analise Arquivo</p>
+            <form id="uploadForm">
+                <!-- Campo para seleção de arquivo -->
                 <div class="input-button">
-                    <input id="file-upload" type="file">
-                    <button>Enviar</button>
+                    <label for="fileUpload">Selecione o arquivo:</label>
+                    <input id="fileUpload" type="file" name="file">
+                    <button id="sendButton" type="submit">Enviar</button>
                 </div>
-            </form>
 
-            <form id="informa">
+                <!-- Campo para tipo de folha -->
                 <div class="input-wrapper">
                     <label for="paper-type">Tipo de Folha</label>
-                    <select id="paper-type">
+                    <select id="paper-type" name="paper-type">
                         <option value="plan">Folha Padrão</option>
                         <option value="plan40">Peso 40</option>
                         <option value="photo">Foto</option>
@@ -35,9 +34,14 @@
                     </select> 
                 </div>
 
+                
             </form>
+
+            <h2>RESULTADO</h2>
+            <pre id="resultArea"> </pre>
         </div>
     </main>
+
+    <script src="script.js"></script>
 </body>
-</html> 
- 
+</html>
