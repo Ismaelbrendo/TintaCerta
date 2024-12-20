@@ -1,4 +1,5 @@
 # TintaCerta - Calculadora de Consumo de Tinta
+#AINDA EM DESENVOLVIMENTO
 
 TintaCerta é uma aplicação web que calcula com precisão a quantidade de tinta necessária para imprimir uma imagem, dividida nos componentes CMYK (Ciano, Magenta, Amarelo e Preto).
 
