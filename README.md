@@ -27,7 +27,7 @@ TintaCerta é uma aplicação web que calcula com precisão a quantidade de tint
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/tintacerta.git 
+git clone https://github.com/Ismaelbrendo/tintacerta.git 
 ```
 2. Instale as dependências:
 ```bash
